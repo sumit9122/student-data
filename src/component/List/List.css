@@ -1,0 +1,11 @@
+.check {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.check label {
+    padding-left: 6px;
+}
+.check input:not(:last-child) {
+    margin-bottom: 8px;
+}

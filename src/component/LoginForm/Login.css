@@ -1,0 +1,70 @@
+.login {
+    width: 100%;
+   background-image: url(../../Images/login_bg.png);
+   height: 100vh;
+   display: grid;
+    place-content: center;
+}
+.login_box {
+    width: 450px;
+    margin: auto;
+    background-color: #ffffffba;
+    border-radius: 15px;
+    padding: 25px;
+   
+}
+.login_box h2{
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+.form_fields input {
+    outline: none;
+    border-radius: 5px;
+    padding: 12px 10px;
+    width: 300px;
+    font-size: 18px;
+    border: 0;
+}
+.form_fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_fields button {
+    margin-top: 25px;
+    padding: 10px 21px;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: ease .3s;
+    background: #00000026;
+}
+.form_fields button:hover{
+    color:#ffffffba;
+    background-color: #000;
+    transition: ease .3s;
+}
+.form_fields span{
+    color: red;
+    margin-top: 5px;
+    width: 68%;
+}
+.form_fields input.success {
+    border: 1px solid green;
+}
+.form_fields input.success::placeholder{
+    color: green;
+}
+
+.form_fields input.error {
+    border: 1px solid red;
+}
+.form_fields input.error::placeholder{
+    color: red;
+}

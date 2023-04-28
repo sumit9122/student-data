@@ -1,0 +1,29 @@
+.head {
+    width: 100%;
+    background-color: #dfcea6;
+}
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
+.header  {
+    padding: 10px 5% 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 25px;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.navigation a{
+    font-size: 18px;
+    font-weight: 500;
+}
+.navigation {
+    display: flex;
+    gap: 30px;
+}

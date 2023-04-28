@@ -1,0 +1,72 @@
+.sudent_data {
+    width: 90%;
+    margin: auto;
+}
+.form_data {
+    display: flex;
+    flex-direction: column; 
+    width: 33%; 
+    margin-bottom: 30px;  
+}
+.form_data input {
+    width: 80%;
+    padding: 17px 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    background: #e7e7e7;
+    font-size: 18px;
+    margin-top: 5px;
+    color: #333333;
+}
+.form_data input.error {
+    border: 1px solid red;
+}
+.form_data label {
+    font-size: 19px;
+    font-weight: 500;
+    color: #333;
+    padding-left: 4px;
+}
+.student {
+    display: flex;
+   
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form_data .multiselect-container.multiSelectContainer {
+    margin-top: 3px;
+}  
+.form_data .search-wrapper.searchWrapper{
+    height: 64px;
+}
+ .form_data .multiSelectContainer {
+    width: 84%;
+    background: #e7e7e7;
+    border-radius: 5px;
+}
+.btn_group button{
+    padding: 10px 21px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    color: #787878;
+}
+.btn_group {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 30px;
+    gap: 25px;
+    padding-right: 60px;
+}
+.form_data span {
+    margin-top: 4px;
+    color: red;
+    text-transform: capitalize;
+}
+.form_data .multiselect-container.multiSelectContainer.success {
+    border: 1px solid transparent;
+}
